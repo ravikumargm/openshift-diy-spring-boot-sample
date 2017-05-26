@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import demo.model.Employee;
 
-@CrossOrigin(maxAge = 3600) 
+@CrossOrigin(origins = "http://localhost", maxAge = 3600) 
 @RestController
 public class EmployeeController 
 {
